@@ -1,0 +1,215 @@
+* {
+	font-family: "Oswald", sans-serif;
+}
+
+/**Generals**/
+.section-title h4 {
+	padding: 1.5rem 0rem;
+	font-weight: 600;
+}
+
+.btn-custom {
+	background-color: #425059;
+	color: #fff;
+}
+
+.btn-custom:hover {
+	background-color: #9ca2a6;
+	color: #fff;
+}
+
+/*Navbar*/
+nav {
+	position: fixed;
+}
+.nav-item {
+	margin-left: 0.5rem;
+}
+
+.nav-item a {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+/**About**/
+.about {
+	background-image: url("/images/banner-2.jpg");
+	background-size: cover;
+}
+
+.about .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+.about .section-title h4 {
+	font-style: italic;
+}
+
+.about .section-txt {
+	padding-bottom: 1rem;
+}
+
+.profile-img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.profile-img img {
+	max-width: 100%;
+	height: 250px;
+	border-radius: 100px;
+	border: 1px solid #425059;
+}
+
+/**Skills**/
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.card-text a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+
+.card {
+	margin: 1rem 1rem;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #425059;
+}
+
+.card-body .card-title {
+	font-weight: 700;
+}
+
+.card img {
+	max-width: 80%;
+	height: 180px;
+	object-fit: cover;
+	padding-top: 0.5rem;
+}
+
+.card .card-btn {
+	padding-bottom: 1rem;
+}
+
+.card-body .row {
+	text-align: center;
+}
+
+/**Projects & Certificates**/
+.projects-certificates {
+	background-image: url("/images/p-c.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.projects-certificates h5 {
+	text-align: center;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.certificate-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects-certificates .card {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.certificate-container img {
+	max-width: 80%;
+}
+
+.social-media {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+}
+
+footer {
+	padding: 1.2rem;
+	background-color: #fff;
+	color: #303840;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.section-txt p {
+		font-size: 1.2rem;
+	}
+	.certificate-container {
+		width: 45%;
+	}
+
+	.certificate-container img {
+		max-width: 35%;
+	}
+
+	.social-box {
+		width: 30%;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-collapse {
+		width: 100%;
+	}
+
+	.nav-item a {
+		font-size: 1.5rem;
+		font-weight: 700;
+	}
+
+	.about .section-txt p {
+		font-size: 1.2rem;
+	}
+
+	.certificate-container {
+		width: 30%;
+		margin: 1rem;
+	}
+
+	.certificate-container img {
+		max-width: 80%;
+	}
+
+	.section-body p {
+		font-size: 1.2rem;
+	}
+	.social-box p {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 1300px) {
+	.nav-item a {
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+}
