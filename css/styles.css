@@ -136,6 +136,12 @@ nav {
 	max-width: 80%;
 }
 
+#amazonIMG {
+	position: 100% 150%;
+	object-fit: contain;
+}
+
+/***Footer**/
 .social-media {
 	display: flex;
 	flex-direction: row;
